@@ -1,72 +1,63 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-
 <head>
   <meta charset="utf-8">
-  <title>Form</title>
-  <link href="https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css">
-  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
-  <meta name="handheldfriendly" content="true">
-  <meta name="mobileoptimized" content="240">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <title>Forms</title>
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
-
-
-
-<form action="https://formspree.io/shaw0106@algonquinlive.com" method="post">
+<form action="https://formspree.io/bradlet@algonquincollege.com" method="post">
 
   <div>
     <label for="name">Name</label>
-      <input id="name" name="name" required>
+    <input id="name" required name="name">
   </div>
 
   <div>
-    <label for="email">Email<label>
-      <input id="email" type="email" name="email" required placeholder="you@emailadress.com">
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" required placeholder="you@yours.com">
   </div>
 
   <div>
-    <label for="subject">Gender</label>
+    <label for="subject">Subject</label>
     <select id="subject" name="_subject">
-      <option>Choose</option>
-      <option>Female</option>
-      <option>Male</option>
+      <option></option>
+      <option>Looking for a freelancer</option>
+      <option>Let’s get a coffee</option>
+      <option>You’re amazing!</option>
     </select>
   </div>
 
   <fieldset>
-    <legend>Sup?</legend>
+    <legend>How are you feeling today?</legend>
 
-      <input id="happy" type="radio" name="feels">
-      <label for="happy">happy</label>
+    <input id="happy" type="radio" name="feels">
+    <label for="happy">Happy</label>
 
-      <input id="sad" type="radio" name="feels">
-      <label for="sad">sad</label>
+    <input id="sad" type="radio" name="feels">
+    <label for="sad">Sad</label>
 
-      <input id="tired" type="radio" name="feels">
-      <label for="tired">tired</label>
+    <input id="tired" type="radio" name="feels">
+    <label for="tired">Tired</label>
 
-      <input id="super-duper" type="radio" name="feels">
-      <label for="super-duper">super-duper</label>
-
+    <input id="super" type="radio" name="feels">
+    <label for="super">Like a superhero!</label>
   </fieldset>
 
   <div>
     <label for="message">Message</label>
-      <textarea id="message" name="message"></textarea>
+    <textarea id="message" name="message"></textarea>
   </div>
 
   <div>
-    <button type="submit">Send</button>
+    <button type="submit">Send!</button>
   </div>
 
-  <input type="hidden" name="_next" value="https://http://shaw0106.github.io/form/thanks.html">
+  <input type="hidden" name="_next"
+    value="https://shaw0106.github.io/forms/thanks.html">
 
 </form>
-
 
 </body>
 </html>

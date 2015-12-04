@@ -1,0 +1,23 @@
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input + label {
+  display: inline;
+}
+
+input {
+  border: 3px solid yellow;
+  background-color: lightgrey;
+  border-radius: 5px
+
+}
+
+
+button {
+  border: 3px solid limegreen;
+  background-color: grey;
+  font-size: 3rem;
+  cursor: pointer;
+}

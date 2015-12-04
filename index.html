@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link href="css/module.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css">
+  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<form action="https://formspree.io/shaw0106@algonquinlive.com" method="post">
+
+  <div>
+    <label for="name">Name</label>
+      <input id="name" name="name" required>
+  </div>
+
+  <div>
+    <label for="email">Email<label>
+      <input id="email" type="email" name="email" required placeholder="you@emailadress.com">
+  </div>
+
+  <div>
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option>Choose</option>
+      <option>Female</option>
+      <option>Male</option>
+    </select>
+  </div>
+
+  <fieldset>
+    <legend>Sup?</legend>
+
+      <input id="happy" type="radio" name="feels">
+      <label for="happy">happy</label>
+
+      <input id="sad" type="radio" name="feels">
+      <label for="sad">sad</label>
+
+      <input id="tired" type="radio" name="feels">
+      <label for="tired">tired</label>
+
+      <input id="super-duper" type="radio" name="feels">
+      <label for="super-duper">super-duper</label>
+
+  </fieldset>
+
+  <div>
+    <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">Send</button>
+  </div>
+
+</form>
+
+
+</body>
+</html>
